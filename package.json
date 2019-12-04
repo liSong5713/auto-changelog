@@ -1,10 +1,10 @@
 {
-  "name": "auto-changelog",
-  "version": "1.16.2",
+  "name": "auto-changelog-r",
+  "version": "0.0.1",
   "description": "Command line tool for generating a changelog from git tags and commit history",
   "main": "./lib/index.js",
   "bin": {
-    "auto-changelog": "./lib/index.js"
+    "auto-changelog-r": "./lib/index.js"
   },
   "scripts": {
     "lint": "standard --verbose | snazzy",
@@ -111,5 +111,8 @@
       "text",
       "html"
     ]
+  },
+  "publishConfig": {
+    "registry": "http://nexus.17usoft.com/repository/npm-fe/"
   }
 }
