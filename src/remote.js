@@ -30,7 +30,7 @@ function getRemote(remoteURL, options = {}) {
   const IS_GITLAB_SUBGROUP = /\.git$/.test(remote.branch);
   const IS_AZURE = /dev\.azure/.test(hostname);
   const IS_VISUAL_STUDIO = /visualstudio/.test(hostname);
-  const IS_ELONG_GITLAB = /elong/.test(hostname);
+  const IS_ELONG_GITLAB = /17usoft/.test(hostname);
 
   if (IS_BITBUCKET) {
     const url = `${protocol}//${hostname}/${remote.repo}`;
